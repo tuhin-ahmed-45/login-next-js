@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h5 {
+    font-family: cursive;
+  }
+}
+
+@layer utilities {
+  .font-monospace {
+    font-family: monospace;
+  }
+}
