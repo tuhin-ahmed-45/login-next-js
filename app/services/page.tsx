@@ -5,16 +5,16 @@ function Form() {
     <div className="min-h-screen py-40 bg-gradient-to-r from-violet-500 to-fuchsia-500">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
-          <div className="flex flex-col items-center justify-center w-1/2 relative">
+          <div className="flex flex-col items-center relative justify-center w-1/2">
             <Image fill src={"/images/bg.jpg"} alt="Baground" />
-            <h1 className="text-white absolute text-3xl mb-3">Welcome</h1>
-            <div className="flex flex-col items-center justify-center p-12">
-              <p className="text-white absolute">
+            <h1 className="text-white  text-3xl mb-3 z-10 relative">Welcome</h1>
+            <div className="flex flex-col items-center justify-center p-12 z-10 relative">
+              <p className="text-white ">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
                 blanditiis voluptates ut error beatae perferendis quas quam eius
                 veritatis{" "}
                 <a href="#" className="text-purple-500 font-semibold">
-                  Learn more
+                  Learn moresdfsdfsfdfsdfefsdf
                 </a>
               </p>
             </div>
